@@ -1,5 +1,5 @@
-# Project Name
-> Outline a brief description of your project.
+# House Price Prediction
+> A US-based housing company named Surprise Housing has decided to enter the Australian market. The company uses data analytics to purchase houses at a price below their actual values and flip them on at a higher price. The company is looking at prospective properties to buy to enter the market. They want a model to predict the actual value of the prospective properties and decide whether to invest in them or not.
 
 
 ## Table of Contents
@@ -28,21 +28,15 @@
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- library - Pandas
+- library - Sklearn
+- library - Ridge
+- library - Lasso
+- library - RFE
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@vasuteotia] - feel free to contact me!
 
 
 <!-- Optional -->
