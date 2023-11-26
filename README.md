@@ -3,29 +3,10 @@
 
 
 ## Table of Contents
-* [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
-
-<!-- You can include any other section that is pertinent to your problem -->
-
-## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
-## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
+* [Contact](#contact)
+  
 
 ## Technologies Used
 - library - Pandas
@@ -33,6 +14,31 @@
 - library - Ridge
 - library - Lasso
 - library - RFE
+
+
+## Conclusions
+# variables play significant role in predicting the price of a house
+
+- LotArea------------- Lot size in square feet
+- OverallQual--------Rates the overall material and finish of the house
+- OverallCond-------Rates the overall condition of the house
+- YearBuilt-------- ---Original construction date
+- BsmtFinSF1-------Type 1 finished square feet
+- TotalBsmtSF------Total square feet of basement area
+- GrLivArea----------Above grade (ground) living area square feet
+- TotRmsAbvGrd---Total rooms above grade (does not include bathrooms)
+- Street_Pave-------Pave road access to property
+- RoofMatl_Metal--Roof material_Metal
+
+# Ridge and Lasso R2 Scores
+
+               Ridge Regression  Lasso Regression
+
+R2 score(Train)---------        0.88    ----------------------------0.88
+
+R2 score(Test)-----------0.87-----------------------------0.86
+
+
 
 
 ## Contact
